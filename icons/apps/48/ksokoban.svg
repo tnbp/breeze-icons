@@ -1,37 +1,25 @@
 <svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-    <path id="b_bg" d="M7.5 27.5L24 44L40.5 27.5H7.5Z" fill="url(#b_bg)"/>
-    <path id="t_bg" d="m24.0002 4-16.5002 23.5 6 2.5h21l6-2.5-16.4998-23.5z" clip-rule="evenodd" fill="url(#t_bg)" fill-rule="evenodd"/>
-    <path id="b_h" d="M13.5 30L23.9998 44L34.5 30H13.5Z" fill="url(#b_h)"/>
-    <path id="t_h" d="M13.5 30L23.9999 4L34.5 30H13.5Z" fill="url(#t_h)"/>
-    <path id="h" d="m34.5 30h-21l-6-2.5 16.5-23.5 16.5 23.5-6 2.5z" fill="url(#h)" fill-opacity=".5"/>
-    <path id="bh" d="m7.5 27.5 16.5-23.5 6.0578 15-6.0582-3.5z" fill="url(#bh)" opacity=".4"/>
+    <path d="M7.5 27.5L24 44L40.5 27.5H7.5Z" fill="url(#bottom_bg)"/>
+    <path d="m24 4-16.5 23.5 6 2.5h21l6-2.5-16.4998-23.5z" clip-rule="evenodd" fill="url(#top_bg)" fill-rule="evenodd"/>
+    <path d="M13.5 30L24 44L34.5 30H13.5Z" fill="url(#bottom_fg)"/>
+    <path d="M13.5 30L24 4L34.5 30H13.5Z" fill="url(#top_fg)"/>
     <defs>
-        <linearGradient id="b_bg" x1="21" x2="24" y1="24.5" y2="44" gradientUnits="userSpaceOnUse">
-            <stop id="stop20" stop-color="#AC2E4C" offset="0"/>
-            <stop id="stop22" stop-color="#3E0B56" offset="1"/>
+        <linearGradient id="bottom_bg" x1="21" x2="24" y1="24.5" y2="44" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#AC2E4C" offset="0"/>
+            <stop stop-color="#3E0B56" offset="1"/>
         </linearGradient>
-        <linearGradient id="t_bg" x1="24" x2="8" y1="30" y2="4" gradientUnits="userSpaceOnUse">
-            <stop id="stop25" stop-color="#D83F5A" offset="0"/>
-            <stop id="stop27" stop-color="#FF9388" offset="1"/>
+        <linearGradient id="top_bg" x1="24" x2="8" y1="30" y2="4" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D83F5A" offset="0"/>
+            <stop stop-color="#FF9388" offset="1"/>
         </linearGradient>
-        <linearGradient id="b_h" x1="24" x2="24" y1="30" y2="44" gradientUnits="userSpaceOnUse">
-            <stop id="stop30" stop-color="#C93659" offset="0"/>
-            <stop id="stop32" stop-color="#6D1B60" offset="1"/>
+        <linearGradient id="bottom_fg" x1="24" x2="24" y1="30" y2="44" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C93659" offset="0"/>
+            <stop stop-color="#6D1B60" offset="1"/>
         </linearGradient>
-        <linearGradient id="t_h" x1="24" x2="24" y1="4" y2="30" gradientUnits="userSpaceOnUse">
-            <stop id="stop35" stop-color="#FAB6B4" offset=".4"/>
-            <stop id="stop37" stop-color="#FC9E95" offset=".65"/>
-            <stop id="stop39" stop-color="#F86977" offset=".9"/>
-        </linearGradient>
-        <radialGradient id="h" cx="0" cy="0" r="1" gradientTransform="translate(24 4) rotate(68) scale(28 28)" gradientUnits="userSpaceOnUse">
-            <stop id="stop42" stop-color="#fff" offset="0"/>
-            <stop id="stop44" stop-color="#fff" stop-opacity=".25" offset=".5"/>
-            <stop id="stop46" stop-color="#fff" stop-opacity="0" offset="1"/>
-        </radialGradient>
-        <linearGradient id="bh" x1="24" x2="24" y1="4" y2="30" gradientUnits="userSpaceOnUse">
-            <stop id="stop49" stop-color="#fff" offset="0"/>
-            <stop id="stop51" stop-color="#fff" stop-opacity="0" offset=".5"/>
-            <stop id="stop53" stop-color="#fff" stop-opacity=".05" offset="1"/>
+        <linearGradient id="top_fg" x1="24" x2="24" y1="4" y2="30" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAB6B4" offset=".4"/>
+            <stop stop-color="#FC9E95" offset=".65"/>
+            <stop stop-color="#F86977" offset=".9"/>
         </linearGradient>
     </defs>
 </svg>
